@@ -5,7 +5,6 @@ int yellowbasesX = 145;
 void setup()
 {
   size(600,200);
-  frameRate(1);
   noLoop();
 }
 void draw()
@@ -62,7 +61,7 @@ void redbases()
 {
 	fill(255,0,0);
 	rect(redbasesX,50,10,50);
-	rect(redbasesX + 100,50,10,50);
+	rect(195,100,10,50);
 	redbasesX = redbasesX + 150;
 }
 void bluebases()
@@ -77,7 +76,7 @@ void greenbases()
 {
 	fill(0,255,0);
 	rect(greenbasesX,100,10,50);
-	rect(greenbasesX + 100,100,10,50);
+	rect(195,50,10,50);
 	greenbasesX = greenbasesX + 150;
 }
 void yellowbases()
