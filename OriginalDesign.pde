@@ -67,9 +67,10 @@ void redbases()
 void bluebases()
 {
 	fill(0,0,255);
-	rect(bluebasesX,50,10,50);
+	rect(145,50,10,50);
+	rect(345,50,10,50);
 	rect(bluebasesX + 150,100,10,50);
-	rect(bluebasesX + 300,100,10,50);
+	rect(445,100,10,50);
 	bluebasesX = bluebasesX + 200;
 }
 void greenbases()
@@ -82,9 +83,10 @@ void greenbases()
 void yellowbases()
 {
 	fill(255,255,0);
-	rect(yellowbasesX,100,10,50);
+	rect(145,100,10,50);
+	rect(345,100,10,50);
 	rect(yellowbasesX + 150,50,10,50);
-	rect(yellowbasesX + 300,50,10,50);
+	rect(445,50,10,50);
 	yellowbasesX = yellowbasesX + 200;
 }
 void mousePressed()
