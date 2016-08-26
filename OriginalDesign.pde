@@ -15,7 +15,6 @@ void draw()
   bluebases();
   greenbases();
   yellowbases();
- 
 }
 void firstbackbone()
 {
@@ -83,7 +82,7 @@ void greenbases()
 void yellowbases()
 {
 	fill(255,255,0);
-	rect(145,0,10,50);
+	rect(145,100,10,50);
 	rect(345,100,10,50);
 	rect(yellowbasesX + 150,50,10,50);
 	rect(445,50,10,50);
