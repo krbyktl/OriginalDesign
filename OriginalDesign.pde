@@ -2,7 +2,6 @@ int redbasesX = 95;
 int bluebasesX = 145;
 int greenbasesX = 95;
 int yellowbasesX = 145;
-int x = 0;
 void setup()
 {
   size(600,200);
@@ -10,8 +9,6 @@ void setup()
 }
 void draw()
 {
-x += 20;
-  rect(x, 20, 20, 20);
   firstbackbone();
   secondbackbone();
   redbases();
