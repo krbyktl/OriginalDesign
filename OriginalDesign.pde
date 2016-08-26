@@ -18,7 +18,6 @@ void draw()
 }
 void firstbackbone()
 {
-	size(600, 200);
 	noFill();
 	beginShape();
 	curveVertex(50, 150);
@@ -38,7 +37,6 @@ void firstbackbone()
 }
 void secondbackbone()
 {
-	size(600, 200);
 	noFill();
 	beginShape();
 	curveVertex(50, 50);
